@@ -1,0 +1,19 @@
+
+public class JavaStatements {
+	
+	private static int[] numbers = {1, 10, 15, 54, 15, 10, 10};
+
+
+	public static void main(String[] args) {
+		// display on the console the number 10 when the array index is equal to 10
+		
+		for (int i = 0; i < numbers.length; i++)
+		{
+			if(numbers[i] == 10)
+			System.out.println("i index is " + i + "the value is " +numbers[i]);
+		}
+	}
+	
+}
+
+
